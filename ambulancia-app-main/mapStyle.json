@@ -1,0 +1,26 @@
+[
+    {
+      "featureType": "poi.business",
+      "elementType": "all",
+      "stylers": [
+        { "visibility": "off" }
+      ]
+    },
+    {
+      "featureType": "poi.medical",
+      "elementType": "all",
+      "stylers": [
+        { "visibility": "on" },
+        { "hue": "#ff0000" },
+        { "saturation": 100 }
+      ]
+    },
+    {
+      "featureType": "transit",
+      "elementType": "all",
+      "stylers": [
+        { "visibility": "off" }
+      ]
+    }
+  ]
+  

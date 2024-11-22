@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ambulancia-app",
+    "slug": "ambulancia-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ambulancia.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ambulancia.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ambulanciaapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA97T_JdO07jFupqyt56V5GOzNsD4nv2Rc" 
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/ambulancia.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7ad7e8d9-6172-4b88-8270-9af1ee474ce2"
+      }
+    }
+  }
+}
